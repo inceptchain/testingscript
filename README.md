@@ -23,4 +23,8 @@ contains the dex folder and HODL2_patch1 folder.
 
 in the root directory run:
 
+sudo chmod +x startUITtest.sh
+
+then:
+
 ./startUITest.sh 
