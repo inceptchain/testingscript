@@ -5,7 +5,7 @@ startUITest.sh will need to have the correct "private" address line numbers
 for HODLDEX_PROXY address, HTETHUSD address, and HTOKENRESERVE_PROXY address
 
 In HODL2_patch1/migrations/2_deploy_contracts.js
-before the last line add the following code:
+before the last closing curly brace '}' add the following code:
 
 var stream = fs.createWriteStream("../addresses.txt");
     stream.once('open', function(fd) {
