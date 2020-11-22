@@ -9,6 +9,9 @@ var stream = fs.createWriteStream("../addresses.txt");
     stream.end();
     });
 
+CAUTION, you will need to use the same mnemonic in .secret file and line 11
+of startUITest.sh file.
+
 add file startUITest.sh and truffleScript.js to the root directory that
 contains the dex folder and HODL2_patch1 folder.
 
