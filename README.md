@@ -1,3 +1,9 @@
+ASSUMPTIONS:
+1) the dex folder and HODL2_patch1 folder are in the same directory
+2) we all have the same network-config.js file if not line 24-26 in
+startUITest.sh will need to reflect the correct "private" address locations
+for HODLDEX_PROXY address, HTETHUSD address, and HTOKENRESERVE_PROXY address
+
 In HODL2_patch1/migrations/2_deploy_contracts.js
 before the last line add the following code:
 
